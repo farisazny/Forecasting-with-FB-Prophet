@@ -4,7 +4,7 @@ from prophet import Prophet
 
 def gdp(Series_Type):
     # Step 1: Read the GDP data from CSV
-    df_gdp = pd.read_csv('gdp.csv')
+    df_gdp = pd.read_csv('Users/User/Documents/GitHub/FYP1 GitHub/Streamlit/gdp.csv')
 
     # Step 2: Data Preprocessing
     

@@ -4,7 +4,7 @@ from prophet import Prophet
 
 def cpi_category(Category):
     # Step 1: Read the CPI data from CSV
-    df_cpi = pd.read_csv('cpi_category.csv')
+    df_cpi = pd.read_csv('Users/User/Documents/GitHub/FYP1 GitHub/Streamlit/cpi_category.csv')
 
     # Step 2: Data Preprocessing
     
