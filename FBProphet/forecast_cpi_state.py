@@ -5,7 +5,7 @@ from prophet import Prophet
 
 def cpi_state(state):
     # Step 1: Read the CPI data from CSV
-    df_cpi = pd.read_csv('Users/User/Documents/GitHub/FYP1 GitHub/Streamlit/cpi_state.csv')
+    df_cpi = pd.read_csv('FBProphet/cpi_state.csv')
 
     # Step 2: Data Preprocessing
     # Assuming your data is already in the required format, no column renaming or datetime conversion is needed.

@@ -4,7 +4,7 @@ from prophet import Prophet
 
 def exchange(Category):
     # Step 1: Read the exchange rate data from CSV
-    df_exchange = pd.read_csv('Users/User/Documents/GitHub/FYP1 GitHub/Streamlit/data_exchangerate.csv')
+    df_exchange = pd.read_csv('FBProphet/data_exchangerate.csv')
 
     # Step 2: Data Preprocessing
     

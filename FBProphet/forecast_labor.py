@@ -5,7 +5,7 @@ from prophet import Prophet
 def labour():
 
     # Step 1: Read the dataset from CSV
-    df = pd.read_csv('Users/User/Documents/GitHub/FYP1 GitHub/Streamlit/data_labor.csv')  
+    df = pd.read_csv('FBProphet/data_labor.csv')  
 
     # Step 2: Data Preprocessing
     category = 'Unemployment Rate'  # Specify the category column

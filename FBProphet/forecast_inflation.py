@@ -4,7 +4,7 @@ from prophet import Prophet
 
 def inflation():
     # Step 1: Read the inflation data from CSV
-    df_inflation = pd.read_csv('Users/User/Documents/GitHub/FYP1 GitHub/Streamlit/inflation.csv')
+    df_inflation = pd.read_csv('FBProphet/inflation.csv')
 
     # Step 2: Data Preprocessing
     df_inflation.rename(columns={'Year': 'ds', 'Inflation Rate (%)': 'y'}, inplace=True)
